@@ -1,3 +1,4 @@
+
 # respaldos-linux-mysql 
 Primero que nada necesitamos tener un editor de texto y para eso usaremos nano
 ## Instalación en CENTOS / RHEL
@@ -8,6 +9,10 @@ o
 ``` Console
   sudo install nano
 ```
+
+## IMPORTANTE!!
+Deben tener instalado mysql o mariadb en su linux para poder ejecutar mysqldum
+
 ## Creación de un archivo .sh
 ``` Console
   sudo nano respaldo.sh
@@ -49,3 +54,12 @@ para ejecutarlo
 ```
   sudo ./respaldo.sh
 ```
+
+## Crontab
+```
+    crontab -e
+```
+
+Una vez ejecutado ese comando podremos configurar cuando se ejecutará nuestro script
+
+
