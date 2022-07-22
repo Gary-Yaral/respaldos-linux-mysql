@@ -48,7 +48,7 @@ fi
 Luego, le tenemos que dar todos los permisos para que se pueda ejecutar
 
 ``` Console
-  sudo +x respaldo.sh
+  sudo chmod +x respaldo.sh
 ```
 para ejecutarlo
 ```
